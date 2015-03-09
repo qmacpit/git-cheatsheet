@@ -21,6 +21,11 @@
 log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 ```
 
+- pretty logs with tags
+```
+log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%n' --abbrev-commit --date=relative --branches
+```
+
 ### other
 check changes between branches ( useful to see which changes haven't been cherrypicked yet)
 ```
