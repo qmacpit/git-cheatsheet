@@ -26,7 +26,18 @@ log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgr
 log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%n' --abbrev-commit --date=relative --branches
 ```
 
+### info
+- files changed in last commit
+```
+git log -1 --stat
+```
+- last commit change in a file
+```
+git diff HEAD^^ _filename_
+```
+
 ### other
+
 check changes between branches ( useful to see which changes haven't been cherrypicked yet)
 ```
 (develop) git cherry master
