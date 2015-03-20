@@ -35,6 +35,15 @@ git log -1 --stat
 ```
 git diff HEAD^^ _filename_
 ```
+### branches
+- remove branch
+```
+git branch -d the_local_branch
+```
+- remove remote branch   
+```
+git push origin :the_remote_branch
+```
 
 ### other
 
