@@ -14,6 +14,15 @@
 ```
 (master) git merge --squash develop
 ```
+- squash all commits on branch develop
+```
+(develop) git rebase -i HEAD~2 (2=no of commits to squash)
+```
+  pick commits to squash or pick -> ^X -> edit comments -> ^X
+```
+(develop) git push develop --force
+```
+  
 
 ### logs
 - pretty log
