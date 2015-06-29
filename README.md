@@ -53,6 +53,23 @@ git branch -d the_local_branch
 ```
 git push origin :the_remote_branch
 ```
+### tagging
+- create local tag
+```
+git tag v1.1.0
+```
+- create remote tag
+```
+git push origin v1.1.0
+```
+- remove remote tag 
+```
+git push --delete origin v1.1.0
+```
+- remove local tag
+```
+git tag -d v1.1.0
+```
 
 ### other
 
