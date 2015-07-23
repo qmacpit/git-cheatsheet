@@ -80,3 +80,12 @@ check changes between branches ( useful to see which changes haven't been cherry
 ```
 (develop) git log --left-right --graph --cherry-pick --oneline develop...master
 ```
+
+change commit message 
+```
+git commit --amend -m "New commit message"
+```
+```
+git push origin branch_name -f
+```
+
