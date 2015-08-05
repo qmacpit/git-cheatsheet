@@ -89,3 +89,6 @@ git commit --amend -m "New commit message"
 git push origin branch_name -f
 ```
 
+undo things
+https://github.com/blog/2019-how-to-undo-almost-anything-with-git
+
