@@ -14,6 +14,10 @@
 ```
 (master) git merge --squash develop
 ```
+- not fast-forward merge with without auto commit
+```
+(master) git merge --no-ff --no-commit develop
+```
 - squash all commits on branch develop
 ```
 (develop) git rebase -i HEAD~2 (2=no of commits to squash)
