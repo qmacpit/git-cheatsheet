@@ -26,7 +26,10 @@
 ```
 (develop) git push develop --force
 ```
-  
+- pick all changes from develop branch and override the curent one(master)
+```
+(master) git merge develop -Xtheirs
+```  
 
 ### logs
 - pretty log
