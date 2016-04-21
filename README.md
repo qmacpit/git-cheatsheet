@@ -8,6 +8,11 @@
 ```
 (master) git checkout _filename_
 ```
+### diff
+- diff on file between differen commits
+- ```
+git diff 6c7d12b 8d22db7 README.md
+```
 
 ### merging
 - squash merge
