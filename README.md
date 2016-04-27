@@ -10,7 +10,7 @@
 ```
 ### diff
 - diff on file between differen commits
-- ```
+```
 git diff 6c7d12b 8d22db7 README.md
 ```
 
