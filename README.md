@@ -82,6 +82,12 @@ git push --delete origin v1.1.0
 ```
 git tag -d v1.1.0
 ```
+### submodules
+```
+git clone <repo> --recursive
+cd <repo_dir>
+git pull --recurse-submodules
+```
 
 ### other
 
