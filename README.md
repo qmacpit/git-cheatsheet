@@ -8,6 +8,16 @@
 ```
 (master) git checkout _filename_
 ```
+
+### revert changes
+- reset branch to the remote
+```
+git reset --hard origin/<branch_name>
+```
+- revert merge(The -m followed by the 1 indicates that we want to keep the parent side of the merge )
+```
+git revert -m 1 <merge_hash>
+```
 ### diff
 - diff on file between differen commits
 ```
